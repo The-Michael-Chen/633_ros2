@@ -1,0 +1,151 @@
+[0.090s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/tello_ros/tello_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs
+[0.187s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.226s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.231s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.578s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.833s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.853s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.494s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.693s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.934s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.746s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.752s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.798s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.804s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[7.795s] -- Configuring done
+[9.629s] -- Generating done
+[9.950s] -- Build files have been written to: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs
+[9.961s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/tello_ros/tello_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs
+[9.972s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs -- -j6 -l6
+[10.193s] [  2%] Built target tello_msgs__cpp
+[10.250s] [ 12%] Built target tello_msgs__rosidl_generator_c
+[10.369s] [ 31%] Built target tello_msgs__rosidl_typesupport_cpp
+[10.414s] [ 46%] Built target tello_msgs__rosidl_typesupport_introspection_cpp
+[10.442s] [ 55%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp
+[10.482s] [ 65%] Built target tello_msgs__rosidl_typesupport_c
+[10.487s] [ 65%] Built target tello_msgs__rosidl_typesupport_introspection_c
+[10.597s] [ 76%] Built target tello_msgs__rosidl_typesupport_fastrtps_c
+[10.678s] [ 76%] Built target tello_msgs
+[10.760s] [ 78%] Built target tello_msgs__py
+[10.880s] [ 87%] Built target tello_msgs__python
+[11.010s] [100%] Built target tello_msgs__rosidl_typesupport_c__pyext
+[11.017s] [100%] Built target tello_msgs__rosidl_typesupport_introspection_c__pyext
+[11.022s] [100%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.146s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs -- -j6 -l6
+[11.310s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs
+[11.326s] -- Install configuration: ""
+[11.333s] -- Execute custom install script
+[11.339s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/rosidl_interfaces/tello_msgs
+[11.348s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__functions.h
+[11.353s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__struct.h
+[11.358s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__type_support.h
+[11.363s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__functions.h
+[11.368s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__struct.h
+[11.378s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__type_support.h
+[11.384s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.h
+[11.391s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.397s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.h
+[11.403s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__functions.h
+[11.413s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__struct.h
+[11.421s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__type_support.h
+[11.427s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.h
+[11.434s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/library_path.sh
+[11.448s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/library_path.dsv
+[11.468s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_c.h
+[11.477s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_c.h
+[11.489s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.500s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_c.h
+[11.514s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so
+[11.530s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_cpp.hpp
+[11.545s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_cpp.hpp
+[11.552s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.561s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_cpp.hpp
+[11.573s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.586s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_c.h
+[11.594s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_c.h
+[11.605s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.615s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_c.h
+[11.627s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__builder.hpp
+[11.642s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__struct.hpp
+[11.653s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__traits.hpp
+[11.662s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__type_support.hpp
+[11.672s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__builder.hpp
+[11.682s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__struct.hpp
+[11.695s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__traits.hpp
+[11.705s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__type_support.hpp
+[11.720s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.hpp
+[11.730s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.740s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.hpp
+[11.753s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__builder.hpp
+[11.774s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__struct.hpp
+[11.785s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__traits.hpp
+[11.796s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__type_support.hpp
+[11.818s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.hpp
+[11.832s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_cpp.hpp
+[11.844s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_cpp.hpp
+[11.854s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_cpp.hpp
+[11.863s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.sh
+[11.875s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.dsv
+[11.883s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/__init__.py
+[11.894s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/msg/__init__.py
+[11.902s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/msg/_flight_data.py
+[11.910s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/msg/_tello_response.py
+[11.920s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/srv/__init__.py
+[11.929s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/srv/_tello_action.py
+[11.940s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[11.952s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[11.965s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[11.978s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__python.so
+[11.987s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.idl
+[12.006s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.idl
+[12.019s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.idl
+[12.031s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.msg
+[12.045s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.msg
+[12.055s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.srv
+[12.063s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Request.msg
+[12.078s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Response.msg
+[12.089s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/package_run_dependencies/tello_msgs
+[12.102s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/parent_prefix_path/tello_msgs
+[12.116s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.sh
+[12.136s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.dsv
+[12.153s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/path.sh
+[12.179s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/path.dsv
+[12.184s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.bash
+[12.193s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.sh
+[12.207s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.zsh
+[12.219s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.dsv
+[12.226s] -- Symlinking: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.dsv
+[12.271s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/packages/tello_msgs
+[12.282s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake-extras.cmake
+[12.292s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.302s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.312s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.325s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.334s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.345s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.355s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig.cmake
+[12.365s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig-version.cmake
+[12.379s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.xml
+[12.386s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so
+[12.402s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so
+[12.417s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so
+[12.433s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so
+[12.455s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so
+[12.554s] Compiling '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/__init__.py'...
+[12.566s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_generator_cExport.cmake
+[12.573s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.620s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.627s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.675s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport.cmake
+[12.680s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.720s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_generator_cppExport.cmake
+[12.735s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.742s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.793s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport.cmake
+[12.800s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.847s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs

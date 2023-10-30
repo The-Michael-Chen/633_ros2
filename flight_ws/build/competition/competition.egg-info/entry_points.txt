@@ -1,0 +1,4 @@
+[console_scripts]
+drone_client = competition.drone_service_test:main
+drone_test = competition.drone_control_test:main
+

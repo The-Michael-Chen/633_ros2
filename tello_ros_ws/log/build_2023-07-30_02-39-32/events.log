@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.001646] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.002920] (-) JobUnselected: {'identifier': 'tello_driver'}
+[0.004069] (-) JobUnselected: {'identifier': 'tello_gazebo'}
+[0.005105] (-) JobUnselected: {'identifier': 'tello_msgs'}
+[0.006532] (tello_description) JobQueued: {'identifier': 'tello_description', 'dependencies': OrderedDict()}
+[0.007383] (tello_description) JobStarted: {'identifier': 'tello_description'}
+[0.096626] (-) TimerEvent: {}
+[0.119234] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'cmake'}
+[0.128046] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'build'}
+[0.130609] (tello_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description', '--', '-j6', '-l6'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description', 'env': OrderedDict([('VNCDESKTOP', '3f437f477d9b:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '3f437f477d9b'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/lib:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_driver/lib:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/16.633_ros'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-NyDJJxlgNc,guid=49ef09368b794cd2e712e32b64c50eed'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('WINDOWID', '41943046'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/3f437f477d9b:@/tmp/.ICE-unix/67,unix/3f437f477d9b:/tmp/.ICE-unix/67'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_driver:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared:/opt/ros/foxy'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description'), ('PYTHONPATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_driver:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared:/opt/ros/foxy')]), 'shell': False}
+[0.197024] (-) TimerEvent: {}
+[0.298474] (-) TimerEvent: {}
+[0.399592] (-) TimerEvent: {}
+[0.500700] (-) TimerEvent: {}
+[0.602288] (-) TimerEvent: {}
+[0.703336] (-) TimerEvent: {}
+[0.804513] (-) TimerEvent: {}
+[0.905808] (-) TimerEvent: {}
+[1.006970] (-) TimerEvent: {}
+[1.108521] (-) TimerEvent: {}
+[1.209605] (-) TimerEvent: {}
+[1.253985] (tello_description) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_6.urdf\x1b[0m\n'}
+[1.309960] (-) TimerEvent: {}
+[1.411122] (-) TimerEvent: {}
+[1.512180] (-) TimerEvent: {}
+[1.613602] (-) TimerEvent: {}
+[1.620390] (tello_description) StdoutLine: {'line': b'[ 11%] Built target generate_urdf_6\n'}
+[1.713932] (-) TimerEvent: {}
+[1.815654] (-) TimerEvent: {}
+[1.916707] (-) TimerEvent: {}
+[2.017966] (-) TimerEvent: {}
+[2.119956] (-) TimerEvent: {}
+[2.140246] (tello_description) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_4.urdf\x1b[0m\n'}
+[2.220113] (-) TimerEvent: {}
+[2.321281] (-) TimerEvent: {}
+[2.422612] (-) TimerEvent: {}
+[2.452183] (tello_description) StdoutLine: {'line': b'[ 22%] Built target generate_urdf_4\n'}
+[2.522831] (-) TimerEvent: {}
+[2.623768] (-) TimerEvent: {}
+[2.724967] (-) TimerEvent: {}
+[2.825992] (-) TimerEvent: {}
+[2.924650] (tello_description) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_5.urdf\x1b[0m\n'}
+[2.928466] (-) TimerEvent: {}
+[3.029582] (-) TimerEvent: {}
+[3.131242] (-) TimerEvent: {}
+[3.232546] (-) TimerEvent: {}
+[3.236121] (tello_description) StdoutLine: {'line': b'[ 33%] Built target generate_urdf_5\n'}
+[3.334973] (-) TimerEvent: {}
+[3.437411] (-) TimerEvent: {}
+[3.538604] (-) TimerEvent: {}
+[3.640498] (-) TimerEvent: {}
+[3.741531] (-) TimerEvent: {}
+[3.786555] (tello_description) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_7.urdf\x1b[0m\n'}
+[3.841685] (-) TimerEvent: {}
+[3.942789] (-) TimerEvent: {}
+[4.044019] (-) TimerEvent: {}
+[4.106236] (tello_description) StdoutLine: {'line': b'[ 44%] Built target generate_urdf_7\n'}
+[4.144177] (-) TimerEvent: {}
+[4.245281] (-) TimerEvent: {}
+[4.346344] (-) TimerEvent: {}
+[4.447607] (-) TimerEvent: {}
+[4.548918] (-) TimerEvent: {}
+[4.584801] (tello_description) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_2.urdf\x1b[0m\n'}
+[4.649113] (-) TimerEvent: {}
+[4.750203] (-) TimerEvent: {}
+[4.851414] (-) TimerEvent: {}
+[4.897530] (tello_description) StdoutLine: {'line': b'[ 55%] Built target generate_urdf_2\n'}
+[4.951587] (-) TimerEvent: {}
+[5.052762] (-) TimerEvent: {}
+[5.153971] (-) TimerEvent: {}
+[5.254973] (-) TimerEvent: {}
+[5.356256] (-) TimerEvent: {}
+[5.386622] (tello_description) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_8.urdf\x1b[0m\n'}
+[5.456481] (-) TimerEvent: {}
+[5.557761] (-) TimerEvent: {}
+[5.659316] (-) TimerEvent: {}
+[5.738635] (tello_description) StdoutLine: {'line': b'[ 66%] Built target generate_urdf_8\n'}
+[5.759475] (-) TimerEvent: {}
+[5.860637] (-) TimerEvent: {}
+[5.961806] (-) TimerEvent: {}
+[6.062996] (-) TimerEvent: {}
+[6.164095] (-) TimerEvent: {}
+[6.219451] (tello_description) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_3.urdf\x1b[0m\n'}
+[6.264276] (-) TimerEvent: {}
+[6.365776] (-) TimerEvent: {}
+[6.466989] (-) TimerEvent: {}
+[6.536014] (tello_description) StdoutLine: {'line': b'[ 77%] Built target generate_urdf_3\n'}
+[6.567157] (-) TimerEvent: {}
+[6.668611] (-) TimerEvent: {}
+[6.769718] (-) TimerEvent: {}
+[6.871102] (-) TimerEvent: {}
+[6.972079] (-) TimerEvent: {}
+[7.015708] (tello_description) StdoutLine: {'line': b'[ 88%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_1.urdf\x1b[0m\n'}
+[7.072255] (-) TimerEvent: {}
+[7.173351] (-) TimerEvent: {}
+[7.274512] (-) TimerEvent: {}
+[7.336946] (tello_description) StdoutLine: {'line': b'[ 88%] Built target generate_urdf_1\n'}
+[7.374761] (-) TimerEvent: {}
+[7.475844] (-) TimerEvent: {}
+[7.576972] (-) TimerEvent: {}
+[7.677936] (-) TimerEvent: {}
+[7.779254] (-) TimerEvent: {}
+[7.824593] (tello_description) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello.urdf\x1b[0m\n'}
+[7.879454] (-) TimerEvent: {}
+[7.980482] (-) TimerEvent: {}
+[8.081573] (-) TimerEvent: {}
+[8.138819] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf\n'}
+[8.181791] (-) TimerEvent: {}
+[8.283328] (-) TimerEvent: {}
+[8.325789] (tello_description) CommandEnded: {'returncode': 0}
+[8.383582] (-) TimerEvent: {}
+[8.484984] (-) TimerEvent: {}
+[8.586099] (-) TimerEvent: {}
+[8.687271] (-) TimerEvent: {}
+[8.788411] (-) TimerEvent: {}
+[8.889445] (-) TimerEvent: {}
+[8.990433] (-) TimerEvent: {}
+[9.091736] (-) TimerEvent: {}
+[9.192922] (-) TimerEvent: {}
+[9.257477] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'install'}
+[9.293158] (-) TimerEvent: {}
+[9.394385] (-) TimerEvent: {}
+[9.438164] (tello_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description', 'env': OrderedDict([('VNCDESKTOP', '3f437f477d9b:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', '3f437f477d9b'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/lib:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_driver/lib:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/16.633_ros'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-NyDJJxlgNc,guid=49ef09368b794cd2e712e32b64c50eed'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('WINDOWID', '41943046'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/3f437f477d9b:@/tmp/.ICE-unix/67,unix/3f437f477d9b:/tmp/.ICE-unix/67'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_driver:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared:/opt/ros/foxy'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description'), ('PYTHONPATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_driver:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description:/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared:/opt/ros/foxy')]), 'shell': False}
+[9.494568] (-) TimerEvent: {}
+[9.596526] (-) TimerEvent: {}
+[9.698082] (-) TimerEvent: {}
+[9.723621] (tello_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.731373] (tello_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.739382] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello.urdf\n'}
+[9.748262] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_1.urdf\n'}
+[9.756325] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_2.urdf\n'}
+[9.762598] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_3.urdf\n'}
+[9.770535] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_4.urdf\n'}
+[9.777363] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_5.urdf\n'}
+[9.784368] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_6.urdf\n'}
+[9.790728] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_7.urdf\n'}
+[9.797187] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_8.urdf\n'}
+[9.801284] (-) TimerEvent: {}
+[9.804245] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description\n'}
+[9.810990] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description\n'}
+[9.818047] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.sh\n'}
+[9.824834] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv\n'}
+[9.831744] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/path.sh\n'}
+[9.838628] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/path.dsv\n'}
+[9.845022] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.bash\n'}
+[9.850752] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.sh\n'}
+[9.857359] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.zsh\n'}
+[9.863659] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.dsv\n'}
+[9.869940] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/package.dsv\n'}
+[9.901535] (-) TimerEvent: {}
+[10.003113] (-) TimerEvent: {}
+[10.094684] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/packages/tello_description\n'}
+[10.102891] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake\n'}
+[10.107547] (-) TimerEvent: {}
+[10.109188] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake\n'}
+[10.116462] (tello_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/package.xml\n'}
+[10.123971] (tello_description) CommandEnded: {'returncode': 0}
+[10.207758] (-) TimerEvent: {}
+[10.309271] (-) TimerEvent: {}
+[10.410655] (-) TimerEvent: {}
+[10.512276] (-) TimerEvent: {}
+[10.613577] (-) TimerEvent: {}
+[10.714817] (-) TimerEvent: {}
+[10.816187] (-) TimerEvent: {}
+[10.917945] (-) TimerEvent: {}
+[11.019581] (-) TimerEvent: {}
+[11.120940] (-) TimerEvent: {}
+[11.222647] (-) TimerEvent: {}
+[11.323907] (-) TimerEvent: {}
+[11.424887] (-) TimerEvent: {}
+[11.487737] (tello_description) JobEnded: {'identifier': 'tello_description', 'rc': 0}
+[11.495622] (-) EventReactorShutdown: {}

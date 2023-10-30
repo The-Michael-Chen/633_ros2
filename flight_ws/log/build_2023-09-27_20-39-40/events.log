@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.001136] (competition) JobQueued: {'identifier': 'competition', 'dependencies': OrderedDict()}
+[0.004209] (tello_msgs) JobQueued: {'identifier': 'tello_msgs', 'dependencies': OrderedDict()}
+[0.005957] (competition) JobStarted: {'identifier': 'competition'}
+[0.049910] (tello_msgs) JobStarted: {'identifier': 'tello_msgs'}
+[0.096899] (-) TimerEvent: {}
+[0.198125] (-) TimerEvent: {}
+[0.299789] (-) TimerEvent: {}
+[0.401293] (-) TimerEvent: {}
+[0.440119] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'cmake'}
+[0.451382] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'build'}
+[0.453473] (tello_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/tello_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/tello_msgs', 'env': OrderedDict([('VNCDESKTOP', 'd6b1688cb26a:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'd6b1688cb26a'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/16.633_ros'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-aoRQkgtfMX,guid=43c258e7967a3c5dc0ad8e9a651492ba'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install'), ('ROS_DISTRO', 'foxy'), ('WINDOWID', '39845894'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/d6b1688cb26a:@/tmp/.ICE-unix/72,unix/d6b1688cb26a:/tmp/.ICE-unix/72'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/tello_msgs'), ('PYTHONPATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy')]), 'shell': False}
+[0.501616] (-) TimerEvent: {}
+[0.603019] (-) TimerEvent: {}
+[0.704377] (-) TimerEvent: {}
+[0.806058] (-) TimerEvent: {}
+[0.907742] (-) TimerEvent: {}
+[1.009045] (-) TimerEvent: {}
+[1.110950] (-) TimerEvent: {}
+[1.212489] (-) TimerEvent: {}
+[1.226213] (tello_msgs) StdoutLine: {'line': b'[  2%] Built target tello_msgs__cpp\n'}
+[1.303114] (tello_msgs) StdoutLine: {'line': b'[ 12%] Built target tello_msgs__rosidl_generator_c\n'}
+[1.312748] (-) TimerEvent: {}
+[1.416451] (-) TimerEvent: {}
+[1.487260] (competition) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'env': {'VNCDESKTOP': 'd6b1688cb26a:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': 'd6b1688cb26a', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/16.633_ros', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-aoRQkgtfMX,guid=43c258e7967a3c5dc0ad8e9a651492ba', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install', 'ROS_DISTRO': 'foxy', 'WINDOWID': '39845894', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/d6b1688cb26a:@/tmp/.ICE-unix/72,unix/d6b1688cb26a:/tmp/.ICE-unix/72', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'PYTHONPATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs'}, 'shell': False}
+[1.529976] (-) TimerEvent: {}
+[1.631742] (-) TimerEvent: {}
+[1.735852] (-) TimerEvent: {}
+[1.751584] (tello_msgs) StdoutLine: {'line': b'[ 23%] Built target tello_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.807616] (tello_msgs) StdoutLine: {'line': b'[ 51%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.818243] (tello_msgs) StdoutLine: {'line': b'[ 55%] Built target tello_msgs__rosidl_typesupport_cpp\n'}
+[1.836061] (-) TimerEvent: {}
+[1.842335] (tello_msgs) StdoutLine: {'line': b'[ 65%] Built target tello_msgs__rosidl_typesupport_introspection_c\n'}
+[1.848385] (tello_msgs) StdoutLine: {'line': b'[ 65%] Built target tello_msgs__rosidl_typesupport_c\n'}
+[1.936277] (-) TimerEvent: {}
+[1.964870] (competition) StdoutLine: {'line': b'running develop\n'}
+[2.036594] (-) TimerEvent: {}
+[2.112822] (tello_msgs) StdoutLine: {'line': b'[ 76%] Built target tello_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.136749] (-) TimerEvent: {}
+[2.222272] (competition) StdoutLine: {'line': b'running egg_info\n'}
+[2.227452] (competition) StdoutLine: {'line': b'writing competition.egg-info/PKG-INFO\n'}
+[2.231982] (competition) StdoutLine: {'line': b'writing dependency_links to competition.egg-info/dependency_links.txt\n'}
+[2.239516] (-) TimerEvent: {}
+[2.241520] (competition) StdoutLine: {'line': b'writing entry points to competition.egg-info/entry_points.txt\n'}
+[2.247046] (competition) StdoutLine: {'line': b'writing requirements to competition.egg-info/requires.txt\n'}
+[2.252328] (competition) StdoutLine: {'line': b'writing top-level names to competition.egg-info/top_level.txt\n'}
+[2.325038] (competition) StdoutLine: {'line': b"reading manifest file 'competition.egg-info/SOURCES.txt'\n"}
+[2.339690] (-) TimerEvent: {}
+[2.348211] (competition) StdoutLine: {'line': b"writing manifest file 'competition.egg-info/SOURCES.txt'\n"}
+[2.352067] (tello_msgs) StdoutLine: {'line': b'[ 76%] Built target tello_msgs\n'}
+[2.439854] (-) TimerEvent: {}
+[2.462202] (competition) StdoutLine: {'line': b'running build_ext\n'}
+[2.466890] (competition) StdoutLine: {'line': b'Creating /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages/competition.egg-link (link to .)\n'}
+[2.484021] (competition) StdoutLine: {'line': b'Installing drone_client script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition\n'}
+[2.494355] (competition) StdoutLine: {'line': b'Installing drone_test script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition\n'}
+[2.503178] (competition) StdoutLine: {'line': b'\n'}
+[2.506101] (competition) StdoutLine: {'line': b'Installed /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition\n'}
+[2.509151] (competition) StdoutLine: {'line': b'running install_data\n'}
+[2.534731] (competition) CommandEnded: {'returncode': 0}
+[2.541106] (-) TimerEvent: {}
+[2.607072] (tello_msgs) StdoutLine: {'line': b'[ 78%] Built target tello_msgs__py\n'}
+[2.642404] (-) TimerEvent: {}
+[2.723211] (competition) JobEnded: {'identifier': 'competition', 'rc': 0}
+[2.742575] (-) TimerEvent: {}
+[2.843958] (-) TimerEvent: {}
+[2.921453] (tello_msgs) StdoutLine: {'line': b'[ 87%] Built target tello_msgs__python\n'}
+[2.944141] (-) TimerEvent: {}
+[3.045402] (-) TimerEvent: {}
+[3.146449] (-) TimerEvent: {}
+[3.224983] (tello_msgs) StdoutLine: {'line': b'[ 91%] Built target tello_msgs__rosidl_typesupport_c__pyext\n'}
+[3.244409] (tello_msgs) StdoutLine: {'line': b'[ 97%] Built target tello_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.248299] (-) TimerEvent: {}
+[3.250636] (tello_msgs) StdoutLine: {'line': b'[100%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.348477] (-) TimerEvent: {}
+[3.401545] (tello_msgs) CommandEnded: {'returncode': 0}
+[3.448768] (-) TimerEvent: {}
+[3.550057] (-) TimerEvent: {}
+[3.650997] (-) TimerEvent: {}
+[3.752157] (-) TimerEvent: {}
+[3.853382] (-) TimerEvent: {}
+[3.954423] (-) TimerEvent: {}
+[4.055462] (-) TimerEvent: {}
+[4.156543] (-) TimerEvent: {}
+[4.257664] (-) TimerEvent: {}
+[4.358699] (-) TimerEvent: {}
+[4.459690] (-) TimerEvent: {}
+[4.560597] (-) TimerEvent: {}
+[4.649320] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'install'}
+[4.660740] (-) TimerEvent: {}
+[4.709866] (tello_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/tello_msgs'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/tello_msgs', 'env': OrderedDict([('VNCDESKTOP', 'd6b1688cb26a:1 (ubuntu)'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ubuntu'), ('SUPERVISOR_GROUP_NAME', 'vnc'), ('HOSTNAME', 'd6b1688cb26a'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Desktop/16.633_ros'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-aoRQkgtfMX,guid=43c258e7967a3c5dc0ad8e9a651492ba'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install'), ('ROS_DISTRO', 'foxy'), ('WINDOWID', '39845894'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/d6b1688cb26a:@/tmp/.ICE-unix/72,unix/d6b1688cb26a:/tmp/.ICE-unix/72'), ('DISPLAY', ':1'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy'), ('PASSWD', 'ubuntu'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'vnc'), ('PWD', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/tello_msgs'), ('PYTHONPATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy')]), 'shell': False}
+[4.760951] (-) TimerEvent: {}
+[4.792846] (tello_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.800801] (tello_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.805052] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/ament_index/resource_index/rosidl_interfaces/tello_msgs\n'}
+[4.812682] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__functions.h\n'}
+[4.817958] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__struct.h\n'}
+[4.822681] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__type_support.h\n'}
+[4.827514] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__functions.h\n'}
+[4.831950] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__struct.h\n'}
+[4.836394] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__type_support.h\n'}
+[4.840935] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.h\n'}
+[4.845496] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.850185] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.h\n'}
+[4.855120] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__functions.h\n'}
+[4.859725] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__struct.h\n'}
+[4.862623] (-) TimerEvent: {}
+[4.863836] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__type_support.h\n'}
+[4.868467] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.h\n'}
+[4.873434] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/library_path.sh\n'}
+[4.878981] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/library_path.dsv\n'}
+[4.885701] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_c.h\n'}
+[4.890763] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_c.h\n'}
+[4.895928] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.901379] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_c.h\n'}
+[4.910451] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.917330] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.922089] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.926945] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.931860] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.940144] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.947173] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_c.h\n'}
+[4.952147] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_c.h\n'}
+[4.957624] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.962770] (-) TimerEvent: {}
+[4.963920] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_c.h\n'}
+[4.971471] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__builder.hpp\n'}
+[4.978969] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__struct.hpp\n'}
+[4.986453] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__traits.hpp\n'}
+[4.994480] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__type_support.hpp\n'}
+[4.999972] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__builder.hpp\n'}
+[5.005535] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__struct.hpp\n'}
+[5.011511] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__traits.hpp\n'}
+[5.017779] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__type_support.hpp\n'}
+[5.023781] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.hpp\n'}
+[5.028924] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.034310] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.hpp\n'}
+[5.040183] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__builder.hpp\n'}
+[5.044945] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__struct.hpp\n'}
+[5.049221] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__traits.hpp\n'}
+[5.053797] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__type_support.hpp\n'}
+[5.058048] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.hpp\n'}
+[5.062810] (-) TimerEvent: {}
+[5.063658] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.067496] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.072168] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/include/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.077327] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.sh\n'}
+[5.084762] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.dsv\n'}
+[5.090293] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/__init__.py\n'}
+[5.095324] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/msg/__init__.py\n'}
+[5.099348] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/msg/_flight_data.py\n'}
+[5.103662] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/msg/_tello_response.py\n'}
+[5.108590] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/srv/__init__.py\n'}
+[5.113285] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/srv/_tello_action.py\n'}
+[5.127251] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.135403] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.141649] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.148355] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__python.so\n'}
+[5.153154] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.idl\n'}
+[5.158073] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.idl\n'}
+[5.163018] (-) TimerEvent: {}
+[5.164290] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.idl\n'}
+[5.169465] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.msg\n'}
+[5.174335] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.msg\n'}
+[5.179803] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.srv\n'}
+[5.185034] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Request.msg\n'}
+[5.190113] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Response.msg\n'}
+[5.195377] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/ament_index/resource_index/package_run_dependencies/tello_msgs\n'}
+[5.199884] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/ament_index/resource_index/parent_prefix_path/tello_msgs\n'}
+[5.204247] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.sh\n'}
+[5.209715] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.dsv\n'}
+[5.215238] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/path.sh\n'}
+[5.221989] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/environment/path.dsv\n'}
+[5.227743] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/local_setup.bash\n'}
+[5.232379] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/local_setup.sh\n'}
+[5.237034] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/local_setup.zsh\n'}
+[5.241967] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/local_setup.dsv\n'}
+[5.245162] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/package.dsv\n'}
+[5.263757] (-) TimerEvent: {}
+[5.327445] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/ament_index/resource_index/packages/tello_msgs\n'}
+[5.333276] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.340170] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.345274] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.350314] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.354877] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.359651] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.363924] (-) TimerEvent: {}
+[5.365091] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.368833] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig.cmake\n'}
+[5.373193] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig-version.cmake\n'}
+[5.377669] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/package.xml\n'}
+[5.381703] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so\n'}
+[5.389821] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.397059] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so\n'}
+[5.404559] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.411386] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so\n'}
+[5.464063] (-) TimerEvent: {}
+[5.486852] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_generator_cExport.cmake\n'}
+[5.491112] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.495748] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.498800] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.505268] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.509451] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.514502] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.520622] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.524016] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.528600] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.531061] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.543666] (tello_msgs) CommandEnded: {'returncode': 0}
+[5.564273] (-) TimerEvent: {}
+[5.665292] (-) TimerEvent: {}
+[5.766355] (-) TimerEvent: {}
+[5.867560] (-) TimerEvent: {}
+[5.968903] (-) TimerEvent: {}
+[6.070168] (-) TimerEvent: {}
+[6.171200] (-) TimerEvent: {}
+[6.272281] (-) TimerEvent: {}
+[6.373293] (-) TimerEvent: {}
+[6.474619] (-) TimerEvent: {}
+[6.579231] (-) TimerEvent: {}
+[6.680384] (-) TimerEvent: {}
+[6.781774] (-) TimerEvent: {}
+[6.883121] (-) TimerEvent: {}
+[6.984724] (-) TimerEvent: {}
+[7.086336] (-) TimerEvent: {}
+[7.188061] (-) TimerEvent: {}
+[7.297029] (-) TimerEvent: {}
+[7.400259] (-) TimerEvent: {}
+[7.501740] (-) TimerEvent: {}
+[7.546410] (tello_msgs) JobEnded: {'identifier': 'tello_msgs', 'rc': 0}
+[7.555887] (-) EventReactorShutdown: {}

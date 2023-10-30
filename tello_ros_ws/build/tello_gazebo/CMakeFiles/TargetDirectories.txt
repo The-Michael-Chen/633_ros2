@@ -1,0 +1,10 @@
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/install/strip.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/install/local.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/install.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/list_install_components.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/edit_cache.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/test.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/TelloPlugin.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/tello_gazebo_uninstall.dir
+/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo/CMakeFiles/uninstall.dir

@@ -1,0 +1,74 @@
+[0.199s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo -- -j6 -l6
+[1.633s] [100%] Built target TelloPlugin
+[1.754s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo -- -j6 -l6
+[1.842s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo
+[2.025s] -- Install configuration: ""
+[2.032s] -- Execute custom install script
+[2.045s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/lib/libTelloPlugin.so
+[2.060s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/scripts/marker_0.material
+[2.071s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures/aruco_mark_0.png
+[2.083s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures/aruco_mark_0.svg
+[2.095s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/model.config
+[2.102s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/model.sdf
+[2.112s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/scripts/marker_1.material
+[2.124s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures/aruco_mark_1.png
+[2.129s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures/aruco_mark_1.svg
+[2.136s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/model.config
+[2.144s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/model.sdf
+[2.152s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/scripts/marker_2.material
+[2.162s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures/aruco_mark_2.png
+[2.177s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures/aruco_mark_2.svg
+[2.187s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/model.config
+[2.198s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/model.sdf
+[2.208s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/scripts/marker_3.material
+[2.217s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures/aruco_mark_3.png
+[2.226s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures/aruco_mark_3.svg
+[2.236s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/model.config
+[2.245s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/model.sdf
+[2.254s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/scripts/marker_4.material
+[2.269s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures/aruco_mark_4.png
+[2.275s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures/aruco_mark_4.svg
+[2.282s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/model.config
+[2.287s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/model.sdf
+[2.293s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/scripts/marker_5.material
+[2.298s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures/aruco_mark_5.png
+[2.301s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures/aruco_mark_5.svg
+[2.305s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/model.config
+[2.309s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/model.sdf
+[2.313s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/scripts/marker_6.material
+[2.323s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures/aruco_mark_6.png
+[2.327s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures/aruco_mark_6.svg
+[2.332s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/model.config
+[2.336s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/model.sdf
+[2.341s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/scripts/marker_7.material
+[2.347s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures/aruco_mark_7.png
+[2.368s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures/aruco_mark_7.svg
+[2.383s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/model.config
+[2.390s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/model.sdf
+[2.409s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/build_world.py
+[2.417s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/competition.world
+[2.422s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/f2.world
+[2.427s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/f2_map.yaml
+[2.432s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/fiducial.world
+[2.437s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/fiducial_map.yaml
+[2.446s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/one_cutout.world
+[2.456s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/simple.world
+[2.462s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch/simple_launch.py
+[2.473s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch/vlam_launch.py
+[2.483s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/lib/tello_gazebo/inject_entity.py
+[2.487s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/ament_index/resource_index/package_run_dependencies/tello_gazebo
+[2.494s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/ament_index/resource_index/parent_prefix_path/tello_gazebo
+[2.498s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.sh
+[2.504s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.dsv
+[2.509s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/path.sh
+[2.518s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/path.dsv
+[2.528s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.bash
+[2.537s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.sh
+[2.549s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.zsh
+[2.562s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.dsv
+[2.567s] -- Symlinking: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.dsv
+[2.666s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/ament_index/resource_index/packages/tello_gazebo
+[2.675s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig.cmake
+[2.682s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig-version.cmake
+[2.689s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.xml
+[2.698s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_gazebo

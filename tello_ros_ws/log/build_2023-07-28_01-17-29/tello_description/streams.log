@@ -1,0 +1,88 @@
+[0.340s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/tello_ros/tello_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description
+[1.345s] -- The C compiler identification is GNU 9.4.0
+[2.425s] -- The CXX compiler identification is GNU 9.4.0
+[2.559s] -- Check for working C compiler: /usr/bin/cc
+[3.964s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.971s] -- Detecting C compiler ABI info
+[5.762s] -- Detecting C compiler ABI info - done
+[5.826s] -- Detecting C compile features
+[5.834s] -- Detecting C compile features - done
+[5.876s] -- Check for working CXX compiler: /usr/bin/c++
+[7.459s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.465s] -- Detecting CXX compiler ABI info
+[9.120s] -- Detecting CXX compiler ABI info - done
+[9.179s] -- Detecting CXX compile features
+[9.186s] -- Detecting CXX compile features - done
+[9.233s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[9.435s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.449s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.234s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello.urdf
+[10.239s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_1.urdf
+[10.243s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_2.urdf
+[10.248s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_3.urdf
+[10.253s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_4.urdf
+[10.258s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_5.urdf
+[10.265s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_6.urdf
+[10.270s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_7.urdf
+[10.273s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_8.urdf
+[10.949s] -- Configuring done
+[11.764s] -- Generating done
+[12.013s] -- Build files have been written to: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description
+[12.181s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/tello_ros/tello_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description
+[12.232s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description -- -j6 -l6
+[13.461s] [35m[1mScanning dependencies of target generate_urdf_8[0m
+[13.569s] [35m[1mScanning dependencies of target generate_urdf[0m
+[13.580s] [35m[1mScanning dependencies of target generate_urdf_3[0m
+[13.615s] [35m[1mScanning dependencies of target generate_urdf_4[0m
+[13.683s] [35m[1mScanning dependencies of target generate_urdf_1[0m
+[13.737s] [35m[1mScanning dependencies of target generate_urdf_6[0m
+[14.114s] [ 11%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_8.urdf[0m
+[14.294s] [ 22%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello.urdf[0m
+[14.394s] [ 33%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_1.urdf[0m
+[14.475s] [ 44%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_4.urdf[0m
+[14.614s] [ 55%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_6.urdf[0m
+[14.628s] [ 66%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_3.urdf[0m
+[15.005s] [ 66%] Built target generate_urdf_8
+[15.106s] [ 66%] Built target generate_urdf
+[15.204s] [ 66%] Built target generate_urdf_1
+[15.468s] [ 66%] Built target generate_urdf_4
+[15.497s] [35m[1mScanning dependencies of target generate_urdf_5[0m
+[15.533s] [ 66%] Built target generate_urdf_3
+[15.602s] [ 66%] Built target generate_urdf_6
+[15.726s] [35m[1mScanning dependencies of target generate_urdf_7[0m
+[15.745s] [35m[1mScanning dependencies of target generate_urdf_2[0m
+[15.935s] [ 77%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_5.urdf[0m
+[16.116s] [ 88%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_7.urdf[0m
+[16.295s] [100%] [34m[1mGenerate /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_2.urdf[0m
+[16.723s] [100%] Built target generate_urdf_5
+[16.785s] [100%] Built target generate_urdf_7
+[16.906s] [100%] Built target generate_urdf_2
+[17.119s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description -- -j6 -l6
+[19.534s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description
+[19.757s] -- Install configuration: ""
+[19.770s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf
+[19.870s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello.urdf
+[20.001s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_1.urdf
+[20.082s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_2.urdf
+[20.163s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_3.urdf
+[20.232s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_4.urdf
+[20.314s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_5.urdf
+[20.360s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_6.urdf
+[20.492s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_7.urdf
+[20.570s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_8.urdf
+[20.672s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description
+[20.731s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description
+[20.855s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.sh
+[20.975s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv
+[21.055s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/path.sh
+[21.149s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/path.dsv
+[21.261s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.bash
+[21.370s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.sh
+[21.448s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.zsh
+[21.601s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.dsv
+[21.813s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/package.dsv
+[21.896s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/packages/tello_description
+[21.987s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake
+[22.066s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake
+[22.118s] -- Installing: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/package.xml
+[22.183s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description

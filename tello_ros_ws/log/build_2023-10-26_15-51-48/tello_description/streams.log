@@ -1,0 +1,56 @@
+[0.150s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/tello_ros/tello_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description
+[0.173s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.204s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.542s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.673s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello.urdf
+[0.683s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_1.urdf
+[0.696s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_2.urdf
+[0.704s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_3.urdf
+[0.711s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_4.urdf
+[0.727s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_5.urdf
+[0.753s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_6.urdf
+[0.770s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_7.urdf
+[0.786s] -- creating rules for /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description/urdf/tello_8.urdf
+[1.184s] -- Configuring done
+[2.159s] -- Generating done
+[2.383s] -- Build files have been written to: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description
+[2.399s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/tello_ros/tello_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description
+[2.412s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description -- -j6 -l6
+[2.726s] [ 44%] Built target generate_urdf_4
+[2.760s] [ 44%] Built target generate_urdf_1
+[2.773s] [ 44%] Built target generate_urdf_6
+[2.781s] [ 66%] Built target generate_urdf
+[2.794s] [ 66%] Built target generate_urdf_3
+[2.805s] [ 66%] Built target generate_urdf_8
+[2.892s] [ 88%] Built target generate_urdf_5
+[2.910s] [ 88%] Built target generate_urdf_7
+[2.918s] [100%] Built target generate_urdf_2
+[2.972s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description -- -j6 -l6
+[3.063s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description
+[3.079s] -- Install configuration: ""
+[3.090s] -- Execute custom install script
+[3.103s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello.urdf
+[3.112s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_1.urdf
+[3.125s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_2.urdf
+[3.153s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_3.urdf
+[3.174s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_4.urdf
+[3.182s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_5.urdf
+[3.195s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_6.urdf
+[3.206s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_7.urdf
+[3.217s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_8.urdf
+[3.225s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description
+[3.242s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description
+[3.252s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.sh
+[3.266s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv
+[3.279s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/path.sh
+[3.292s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/environment/path.dsv
+[3.304s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.bash
+[3.324s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.sh
+[3.333s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.zsh
+[3.353s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/local_setup.dsv
+[3.359s] -- Symlinking: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/package.dsv
+[3.402s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/ament_index/resource_index/packages/tello_description
+[3.433s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake
+[3.444s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake
+[3.451s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_description/share/tello_description/package.xml
+[3.470s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_description

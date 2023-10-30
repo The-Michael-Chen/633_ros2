@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.001198] (-) JobUnselected: {'identifier': 'tello_msgs'}
+[0.002226] (competition) JobQueued: {'identifier': 'competition', 'dependencies': OrderedDict()}
+[0.002920] (competition) JobStarted: {'identifier': 'competition'}
+[0.097636] (-) TimerEvent: {}
+[0.199026] (-) TimerEvent: {}
+[0.301305] (-) TimerEvent: {}
+[0.402792] (-) TimerEvent: {}
+[0.504190] (-) TimerEvent: {}
+[0.605589] (-) TimerEvent: {}
+[0.707295] (-) TimerEvent: {}
+[0.808612] (-) TimerEvent: {}
+[0.909925] (-) TimerEvent: {}
+[1.011835] (-) TimerEvent: {}
+[1.071556] (competition) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'env': {'VNCDESKTOP': '3f437f477d9b:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '3f437f477d9b', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/16.633_ros', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-Ypgg1Oh3v1,guid=f79e15b971e2f4594d57070964c85126', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install', 'ROS_DISTRO': 'foxy', 'WINDOWID': '41943046', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/3f437f477d9b:@/tmp/.ICE-unix/68,unix/3f437f477d9b:/tmp/.ICE-unix/68', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'PYTHONPATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs'}, 'shell': False}
+[1.112030] (-) TimerEvent: {}
+[1.213352] (-) TimerEvent: {}
+[1.314989] (-) TimerEvent: {}
+[1.404749] (competition) StdoutLine: {'line': b'running develop\n'}
+[1.415120] (-) TimerEvent: {}
+[1.516463] (-) TimerEvent: {}
+[1.615174] (competition) CommandEnded: {'returncode': 0}
+[1.623565] (-) TimerEvent: {}
+[1.625117] (competition) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/competition', 'build', '--build-base', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build', 'install', '--record', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/install.log', '--install-scripts', '$base/lib/competition', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition', 'env': {'VNCDESKTOP': '3f437f477d9b:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '3f437f477d9b', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/16.633_ros', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-Ypgg1Oh3v1,guid=f79e15b971e2f4594d57070964c85126', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install', 'ROS_DISTRO': 'foxy', 'WINDOWID': '41943046', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/3f437f477d9b:@/tmp/.ICE-unix/68,unix/3f437f477d9b:/tmp/.ICE-unix/68', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'PYTHONPATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs'}, 'shell': False}
+[1.723752] (-) TimerEvent: {}
+[1.825344] (-) TimerEvent: {}
+[1.913636] (competition) StdoutLine: {'line': b'running egg_info\n'}
+[1.917236] (competition) StdoutLine: {'line': b'writing ../../build/competition/competition.egg-info/PKG-INFO\n'}
+[1.920361] (competition) StdoutLine: {'line': b'writing dependency_links to ../../build/competition/competition.egg-info/dependency_links.txt\n'}
+[1.924115] (competition) StdoutLine: {'line': b'writing entry points to ../../build/competition/competition.egg-info/entry_points.txt\n'}
+[1.928018] (-) TimerEvent: {}
+[1.929280] (competition) StdoutLine: {'line': b'writing requirements to ../../build/competition/competition.egg-info/requires.txt\n'}
+[1.933612] (competition) StdoutLine: {'line': b'writing top-level names to ../../build/competition/competition.egg-info/top_level.txt\n'}
+[1.995595] (competition) StdoutLine: {'line': b"reading manifest file '../../build/competition/competition.egg-info/SOURCES.txt'\n"}
+[2.005684] (competition) StdoutLine: {'line': b"writing manifest file '../../build/competition/competition.egg-info/SOURCES.txt'\n"}
+[2.008663] (competition) StdoutLine: {'line': b'running build\n'}
+[2.011981] (competition) StdoutLine: {'line': b'running build_py\n'}
+[2.014958] (competition) StdoutLine: {'line': b'running install\n'}
+[2.017680] (competition) StdoutLine: {'line': b'running install_lib\n'}
+[2.020701] (competition) StdoutLine: {'line': b'running install_data\n'}
+[2.023453] (competition) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.026239] (competition) StdoutLine: {'line': b"removing '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages/competition-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.029074] (-) TimerEvent: {}
+[2.029916] (competition) StdoutLine: {'line': b'Copying ../../build/competition/competition.egg-info to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages/competition-0.0.0-py3.8.egg-info\n'}
+[2.105941] (competition) StdoutLine: {'line': b'running install_scripts\n'}
+[2.129319] (-) TimerEvent: {}
+[2.131940] (competition) StdoutLine: {'line': b'Installing drone_client script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition\n'}
+[2.140920] (competition) StdoutLine: {'line': b'Installing drone_test script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition\n'}
+[2.146615] (competition) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/install.log'\n"}
+[2.172794] (competition) CommandEnded: {'returncode': 0}
+[2.229438] (-) TimerEvent: {}
+[2.272197] (competition) JobEnded: {'identifier': 'competition', 'rc': 0}
+[2.278970] (-) EventReactorShutdown: {}

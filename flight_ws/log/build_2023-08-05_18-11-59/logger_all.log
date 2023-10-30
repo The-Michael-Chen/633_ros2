@@ -1,0 +1,140 @@
+[0.665s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'competition']
+[0.667s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd53b151370>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['competition'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd53b151370>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd53b1518b0>)
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.742s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.750s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Desktop/16.633_ros/flight_ws'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extensions ['colcon_meta']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/competition) by extension 'ros'
+[0.931s] DEBUG:colcon.colcon_core.package_identification:Package 'src/competition' with type 'ros.ament_python' and name 'competition'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extension 'colcon_pkg'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_msgs) by extension 'ros'
+[0.954s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_msgs' with type 'ros.ament_cmake' and name 'tello_msgs'
+[0.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.039s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tello_msgs' in 'src/tello_msgs'
+[1.041s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/Desktop/16.633_ros/flight_ws/install
+[1.098s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 264 installed packages in /opt/ros/foxy
+[1.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.295s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'cmake_target' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'cmake_clean_cache' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'cmake_clean_first' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'cmake_force_configure' from command line to 'False'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'ament_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'catkin_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'competition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.303s] DEBUG:colcon.colcon_core.verb:Building package 'competition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition', 'merge_install': False, 'path': '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition', 'symlink_install': False, 'test_result_base': None}
+[1.305s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.313s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition' with build type 'ament_python'
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('competition', 'ament_prefix_path')
+[1.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/hook/ament_prefix_path.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/hook/ament_prefix_path.dsv'
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/hook/ament_prefix_path.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.162s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition'
+[2.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build
+[4.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition' returned '0': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build
+[4.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/competition build --build-base /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build install --record /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/install.log --install-scripts $base/lib/competition --single-version-externally-managed
+[5.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition' returned '0': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/competition build --build-base /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build install --record /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/install.log --install-scripts $base/lib/competition --single-version-externally-managed
+[5.777s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition' for CMake module files
+[5.823s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition' for CMake config files
+[5.839s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib'
+[5.844s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/bin'
+[5.847s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/pkgconfig/competition.pc'
+[5.854s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages'
+[5.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('competition', 'pythonpath')
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/hook/pythonpath.ps1'
+[5.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/hook/pythonpath.dsv'
+[5.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/hook/pythonpath.sh'
+[5.904s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/bin'
+[5.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(competition)
+[5.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/package.ps1'
+[5.919s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/package.dsv'
+[5.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/package.sh'
+[5.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/package.bash'
+[5.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/competition/package.zsh'
+[5.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/share/colcon-core/packages/competition)
+[5.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.992s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.013s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.015s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.016s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.439s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/local_setup.ps1'
+[6.453s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/_local_setup_util_ps1.py'
+[6.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/setup.ps1'
+[6.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/local_setup.sh'
+[6.549s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/_local_setup_util_sh.py'
+[6.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/setup.sh'
+[6.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/local_setup.bash'
+[6.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/setup.bash'
+[6.622s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/local_setup.zsh'
+[6.635s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/setup.zsh'

@@ -1,0 +1,41 @@
+[0.118s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared
+[0.180s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.205s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.552s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.813s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.904s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.567s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.574s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.567s] -- Configuring done
+[3.036s] -- Generating done
+[3.135s] -- Build files have been written to: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared
+[3.156s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared
+[3.175s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared -- -j6 -l6
+[3.362s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared -- -j6 -l6
+[3.440s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared
+[3.479s] -- Install configuration: ""
+[3.496s] -- Execute custom install script
+[3.503s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[3.512s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[3.520s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[3.529s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[3.545s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[3.555s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[3.578s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[3.588s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[3.594s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[3.604s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[3.615s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[3.623s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[3.640s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[3.656s] -- Symlinking: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[3.686s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[3.699s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake
+[3.720s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.733s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[3.744s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[3.754s] -- Up-to-date symlink: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.xml
+[3.766s] -- Up-to-date: /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake
+[3.789s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/ros2_shared

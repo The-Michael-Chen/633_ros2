@@ -1,0 +1,9 @@
+source;share/competition/hook/pythonpath.ps1
+source;share/competition/hook/pythonpath.dsv
+source;share/competition/hook/pythonpath.sh
+source;share/competition/hook/ament_prefix_path.ps1
+source;share/competition/hook/ament_prefix_path.dsv
+source;share/competition/hook/ament_prefix_path.sh
+source;../../build/competition/share/competition/hook/pythonpath_develop.ps1
+source;../../build/competition/share/competition/hook/pythonpath_develop.dsv
+source;../../build/competition/share/competition/hook/pythonpath_develop.sh

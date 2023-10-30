@@ -1,0 +1,18 @@
+[4.257s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build --no-deps install_data
+[6.243s] running develop
+[6.784s] running egg_info
+[6.790s] writing competition.egg-info/PKG-INFO
+[6.799s] writing dependency_links to competition.egg-info/dependency_links.txt
+[6.806s] writing entry points to competition.egg-info/entry_points.txt
+[6.811s] writing requirements to competition.egg-info/requires.txt
+[6.819s] writing top-level names to competition.egg-info/top_level.txt
+[7.011s] reading manifest file 'competition.egg-info/SOURCES.txt'
+[7.075s] writing manifest file 'competition.egg-info/SOURCES.txt'
+[7.421s] running build_ext
+[7.437s] Creating /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages/competition.egg-link (link to .)
+[7.460s] Installing drone_client script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition
+[7.475s] Installing drone_test script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition
+[7.486s] 
+[7.491s] Installed /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition
+[7.496s] running install_data
+[7.617s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition' returned '0': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build --no-deps install_data

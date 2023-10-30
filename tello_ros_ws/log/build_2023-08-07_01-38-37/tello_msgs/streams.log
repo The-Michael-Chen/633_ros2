@@ -1,0 +1,16 @@
+[0.112s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/Desktop/16.633_ros/tello_ros_ws/build/tello_msgs -- -j6 -l6
+[0.731s] [  2%] Built target tello_msgs__cpp
+[0.817s] [ 12%] Built target tello_msgs__rosidl_generator_c
+[1.137s] [ 36%] Built target tello_msgs__rosidl_typesupport_cpp
+[1.199s] [ 51%] Built target tello_msgs__rosidl_typesupport_introspection_cpp
+[1.207s] [ 57%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp
+[1.221s] [ 65%] Built target tello_msgs__rosidl_typesupport_c
+[1.238s] [ 65%] Built target tello_msgs__rosidl_typesupport_introspection_c
+[1.384s] [ 76%] Built target tello_msgs__rosidl_typesupport_fastrtps_c
+[1.444s] [ 76%] Built target tello_msgs
+[1.534s] [ 78%] Built target tello_msgs__py
+[1.583s] make[1]: *** wait: No child processes.  Stop.
+[1.592s] make[1]: *** Waiting for unfinished jobs....
+[1.600s] make[1]: *** wait: No child processes.  Stop.
+[1.606s] make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/tello_msgs__python.dir/all] Error 2
+[1.612s] make: *** [Makefile:141: all] Interrupt

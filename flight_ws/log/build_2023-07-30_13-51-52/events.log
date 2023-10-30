@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.002366] (-) JobUnselected: {'identifier': 'tello_msgs'}
+[0.004274] (competition) JobQueued: {'identifier': 'competition', 'dependencies': OrderedDict()}
+[0.009945] (competition) JobStarted: {'identifier': 'competition'}
+[0.092155] (-) TimerEvent: {}
+[0.194663] (-) TimerEvent: {}
+[0.298621] (-) TimerEvent: {}
+[0.401217] (-) TimerEvent: {}
+[0.503003] (-) TimerEvent: {}
+[0.604263] (-) TimerEvent: {}
+[0.705908] (-) TimerEvent: {}
+[0.808147] (-) TimerEvent: {}
+[0.910817] (-) TimerEvent: {}
+[1.013509] (-) TimerEvent: {}
+[1.117655] (-) TimerEvent: {}
+[1.222917] (-) TimerEvent: {}
+[1.326125] (-) TimerEvent: {}
+[1.429557] (-) TimerEvent: {}
+[1.532168] (-) TimerEvent: {}
+[1.635007] (-) TimerEvent: {}
+[1.737824] (-) TimerEvent: {}
+[1.840015] (-) TimerEvent: {}
+[1.942568] (-) TimerEvent: {}
+[2.045871] (-) TimerEvent: {}
+[2.148412] (-) TimerEvent: {}
+[2.250225] (-) TimerEvent: {}
+[2.352914] (-) TimerEvent: {}
+[2.459500] (-) TimerEvent: {}
+[2.562477] (-) TimerEvent: {}
+[2.664957] (-) TimerEvent: {}
+[2.767180] (-) TimerEvent: {}
+[2.777209] (competition) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'env': {'VNCDESKTOP': '3f437f477d9b:1 (ubuntu)', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '3f437f477d9b', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Desktop/16.633_ros', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-PDjdGgeinN,guid=8e875f7dbc6e9601ea2d39ca64c6659e', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install', 'ROS_DISTRO': 'foxy', 'WINDOWID': '39845894', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/3f437f477d9b:@/tmp/.ICE-unix/67,unix/3f437f477d9b:/tmp/.ICE-unix/67', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'SUPERVISOR_ENABLED': '1', 'AMENT_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition:/opt/ros/foxy', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition', 'PYTHONPATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs/lib/python3.8/site-packages:/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Desktop/16.633_ros/flight_ws/install/tello_msgs'}, 'shell': False}
+[2.867623] (-) TimerEvent: {}
+[2.970762] (-) TimerEvent: {}
+[3.073573] (-) TimerEvent: {}
+[3.175480] (-) TimerEvent: {}
+[3.277201] (-) TimerEvent: {}
+[3.378974] (-) TimerEvent: {}
+[3.466427] (competition) StdoutLine: {'line': b'running develop\n'}
+[3.479142] (-) TimerEvent: {}
+[3.580618] (-) TimerEvent: {}
+[3.682698] (-) TimerEvent: {}
+[3.786132] (-) TimerEvent: {}
+[3.888287] (-) TimerEvent: {}
+[3.992779] (-) TimerEvent: {}
+[4.105608] (-) TimerEvent: {}
+[4.214230] (-) TimerEvent: {}
+[4.309203] (competition) StdoutLine: {'line': b'running egg_info\n'}
+[4.319431] (-) TimerEvent: {}
+[4.320979] (competition) StdoutLine: {'line': b'writing competition.egg-info/PKG-INFO\n'}
+[4.329349] (competition) StdoutLine: {'line': b'writing dependency_links to competition.egg-info/dependency_links.txt\n'}
+[4.342016] (competition) StdoutLine: {'line': b'writing entry points to competition.egg-info/entry_points.txt\n'}
+[4.356366] (competition) StdoutLine: {'line': b'writing requirements to competition.egg-info/requires.txt\n'}
+[4.361687] (competition) StdoutLine: {'line': b'writing top-level names to competition.egg-info/top_level.txt\n'}
+[4.419625] (-) TimerEvent: {}
+[4.522607] (-) TimerEvent: {}
+[4.538785] (competition) StdoutLine: {'line': b"reading manifest file 'competition.egg-info/SOURCES.txt'\n"}
+[4.582156] (competition) StdoutLine: {'line': b"writing manifest file 'competition.egg-info/SOURCES.txt'\n"}
+[4.622984] (-) TimerEvent: {}
+[4.725392] (-) TimerEvent: {}
+[4.826962] (-) TimerEvent: {}
+[4.891834] (competition) StdoutLine: {'line': b'running build_ext\n'}
+[4.898309] (competition) StdoutLine: {'line': b'Creating /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages/competition.egg-link (link to .)\n'}
+[4.927322] (-) TimerEvent: {}
+[4.928987] (competition) StdoutLine: {'line': b'Installing drone_client script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition\n'}
+[4.941529] (competition) StdoutLine: {'line': b'Installing drone_test script to /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/competition\n'}
+[4.970021] (competition) StdoutLine: {'line': b'\n'}
+[4.975288] (competition) StdoutLine: {'line': b'Installed /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition\n'}
+[4.980811] (competition) StdoutLine: {'line': b'running install_data\n'}
+[5.027815] (-) TimerEvent: {}
+[5.096887] (competition) CommandEnded: {'returncode': 0}
+[5.128013] (-) TimerEvent: {}
+[5.230440] (-) TimerEvent: {}
+[5.333865] (-) TimerEvent: {}
+[5.434910] (competition) JobEnded: {'identifier': 'competition', 'rc': 0}
+[5.466330] (-) TimerEvent: {}
+[5.473490] (-) EventReactorShutdown: {}

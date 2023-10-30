@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/Desktop/633/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/633/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/633/tello_ros_ws/install/ros2_shared
+Invoked command in '/home/ubuntu/Desktop/633/tello_ros_ws/build/ros2_shared' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/Desktop/633/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/633/tello_ros_ws/install/ros2_shared

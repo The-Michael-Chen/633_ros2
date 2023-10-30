@@ -1,0 +1,31 @@
+[0.000000] (-) TimerEvent: {}
+[0.003701] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.006069] (-) JobUnselected: {'identifier': 'tello_description'}
+[0.008013] (-) JobUnselected: {'identifier': 'tello_driver'}
+[0.010140] (-) JobUnselected: {'identifier': 'tello_msgs'}
+[0.012165] (tello_gazebo) JobQueued: {'identifier': 'tello_gazebo', 'dependencies': OrderedDict([('tello_msgs', '/home/ubuntu/Desktop/16.633_ros/tello_ros_ws/install/tello_msgs')])}
+[0.014098] (tello_gazebo) JobStarted: {'identifier': 'tello_gazebo'}
+[0.095763] (-) TimerEvent: {}
+[0.204757] (-) TimerEvent: {}
+[0.310082] (-) TimerEvent: {}
+[0.417266] (-) TimerEvent: {}
+[0.523676] (-) TimerEvent: {}
+[0.632114] (-) TimerEvent: {}
+[0.737540] (-) TimerEvent: {}
+[0.854618] (-) TimerEvent: {}
+[0.959384] (-) TimerEvent: {}
+[1.064447] (-) TimerEvent: {}
+[1.168173] (-) TimerEvent: {}
+[1.270339] (-) TimerEvent: {}
+[1.373037] (-) TimerEvent: {}
+[1.474530] (-) TimerEvent: {}
+[1.576958] (-) TimerEvent: {}
+[1.678574] (-) TimerEvent: {}
+[1.780832] (-) TimerEvent: {}
+[1.882267] (-) TimerEvent: {}
+[1.984607] (-) TimerEvent: {}
+[2.086551] (-) TimerEvent: {}
+[2.189637] (-) TimerEvent: {}
+[2.291678] (-) TimerEvent: {}
+[2.319883] (tello_gazebo) JobEnded: {'identifier': 'tello_gazebo', 'rc': 'SIGINT'}
+[2.334300] (-) EventReactorShutdown: {}

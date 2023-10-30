@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.004161] (-) JobUnselected: {'identifier': 'tello_msgs'}
+[0.005471] (competition) JobQueued: {'identifier': 'competition', 'dependencies': OrderedDict()}
+[0.008715] (competition) JobStarted: {'identifier': 'competition'}
+[0.094643] (-) TimerEvent: {}
+[0.198367] (-) TimerEvent: {}
+[0.302162] (-) TimerEvent: {}
+[0.404029] (-) TimerEvent: {}
+[0.506892] (-) TimerEvent: {}
+[0.580545] (competition) JobEnded: {'identifier': 'competition', 'rc': 0}
+[0.601476] (-) EventReactorShutdown: {}

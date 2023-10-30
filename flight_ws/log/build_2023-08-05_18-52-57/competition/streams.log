@@ -1,0 +1,40 @@
+[1.136s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build
+[1.504s] running develop
+[1.813s] Removing /home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages/competition.egg-link (link to .)
+[1.845s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition' returned '0': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build
+[1.866s] Invoking command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/competition build --build-base /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build install --record /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/install.log --install-scripts $base/lib/competition --single-version-externally-managed
+[2.007s] Traceback (most recent call last):
+[2.013s]   File "setup.py", line 1, in <module>
+[2.019s]     from setuptools import setup
+[2.025s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+[2.030s]     import setuptools.version
+[2.035s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[2.039s]     import pkg_resources
+[2.043s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 83, in <module>
+[2.049s]     __import__('pkg_resources.extern.packaging.specifiers')
+[2.054s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/specifiers.py", line 275, in <module>
+[2.060s]     class Specifier(_IndividualSpecifier):
+[2.069s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/specifiers.py", line 372, in Specifier
+[2.075s]     _regex = re.compile(
+[2.081s]   File "/usr/lib/python3.8/re.py", line 252, in compile
+[2.087s]     return _compile(pattern, flags)
+[2.094s]   File "/usr/lib/python3.8/re.py", line 304, in _compile
+[2.100s]     p = sre_compile.compile(pattern, flags)
+[2.107s]   File "/usr/lib/python3.8/sre_compile.py", line 764, in compile
+[2.112s]     p = sre_parse.parse(p, flags)
+[2.119s]   File "/usr/lib/python3.8/sre_parse.py", line 948, in parse
+[2.124s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[2.130s]   File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+[2.135s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.142s]   File "/usr/lib/python3.8/sre_parse.py", line 834, in _parse
+[2.149s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[2.154s]   File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+[2.159s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.164s]   File "/usr/lib/python3.8/sre_parse.py", line 834, in _parse
+[2.169s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[2.174s]   File "/usr/lib/python3.8/sre_parse.py", line 443, in _parse_sub
+[2.178s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[2.182s]   File "/usr/lib/python3.8/sre_parse.py", line 509, in _parse
+[2.185s]     if this in "|)":
+[2.189s] KeyboardInterrupt
+[2.192s] Invoked command in '/home/ubuntu/Desktop/16.633_ros/flight_ws/src/competition' returned '-2': PYTHONPATH=/home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/prefix_override:/home/ubuntu/Desktop/16.633_ros/flight_ws/install/competition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/competition build --build-base /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/build install --record /home/ubuntu/Desktop/16.633_ros/flight_ws/build/competition/install.log --install-scripts $base/lib/competition --single-version-externally-managed

@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+    <model name="Cutout 5">
+        <pose>0 0 1 0 0 0</pose>
+        <static>true</static>
+        <link name="cutout_obstacle">
+            <collision name="collision">
+                <geometry>
+                    <mesh>
+                        <uri>model://cutout_5/meshes/cutout.stl</uri>
+                        <scale>1 1 1</scale>
+                    </mesh>
+                </geometry>
+            </collision>
+
+            <visual name="visual">
+                <geometry>
+                    <mesh>
+                        <uri>model://cutout_5/meshes/cutout.stl</uri>
+                        <scale>1 1 1</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+        <link name='april_tag_front'>
+            <pose frame=''>0 -0.09 0.87 1.5708 -1.5708 0</pose>
+            <visual name='at_visual_front'>
+                <geometry>
+                <box>
+                <size>0.1651 0.1651 0.01</size>
+                </box>
+                </geometry>
+                <material>
+                <script>
+                    <uri>model://Apriltag36_11_00005/materials/scripts</uri>
+                    <uri>model://Apriltag36_11_00005/materials/textures</uri>
+                    <name>Apriltag36_11_00005</name>
+                </script>
+                </material>
+            </visual>
+        </link>
+        <link name='april_tag_back'>
+            <pose frame=''>0 -0.06 0.87 1.5708 1.5708 0</pose>
+            <visual name='at_visual_back'>
+                <geometry>
+                <box>
+                <size>0.1651 0.1651 0.01</size>
+                </box>
+                </geometry>
+                <material>
+                <script>
+                    <uri>model://Apriltag36_11_00005/materials/scripts</uri>
+                    <uri>model://Apriltag36_11_00005/materials/textures</uri>
+                    <name>Apriltag36_11_00005</name>
+                </script>
+                </material>
+            </visual>
+        </link>
+
+
+    </model>
+</sdf>
